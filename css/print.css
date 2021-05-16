@@ -1,0 +1,421 @@
+@page {
+  size: portrait;
+}
+body {
+  background-color: transparent;
+  font-size: 14px;
+  color: #000000;
+}
+body * {
+  color: #000 !important;
+  text-align: left !important;
+  background: transparent !important;
+  float: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+a[href]:after {
+  content: none !important;
+}
+.inform-up-button,
+.ce-media,
+img,
+figure,
+.artikel-grid-wrapper .grid .grid-item .inner div.image,
+.artikel-grid-wrapper .default-grid .grid-item .inner div.image,
+.grid-top3 .top-grid-item .inner div.image,
+.startseiten-teaser .teaser .inner div.image,
+.grid-serie .grid-item .inner div.image,
+.serien-kachel a.grid-item .inner div.image,
+.filter-outer,
+.cats,
+.backdiv,
+.inform-arrow-right-single,
+a[title="Alle Serien"],
+#c9405 p,
+a.show-all,
+.t3ddy-accordion,
+.frame-type-menu_section,
+.inform-Fahne,
+.material-thumb,
+.bild-wrap,
+nav.main,
+a.menu-open,
+.bgImgWrap,
+.startseiten-intro,
+.bgImgWrap .cats,
+footer,
+p.cat-title,
+div.categories,
+.content-artikelseite-serie,
+.filter-teaser,
+.categories,
+.content-artikelseite-weitereinhalte,
+.embed-container,
+.load-more,
+.serie-outer,
+.artikel-grid-wrapper .grid .grid-item .inner .cats,
+.grid-top3 .top-grid-item .inner .cats,
+.startseiten-teaser .teaser .inner .cats,
+.grid-serie .grid-item .inner .cats {
+  display: none !important;
+}
+.container,
+.container .row,
+div.informmain-content-after-header,
+.content-artikelseite .intro-wrap {
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  page-break-after: avoid;
+  page-break-inside: avoid;
+}
+img {
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+blockquote,
+table,
+pre {
+  page-break-inside: avoid;
+}
+ul,
+ol,
+dl {
+  page-break-before: avoid;
+}
+.startseiten-teaser .teaser {
+  height: auto !important;
+}
+.startseiten-teaser.startseiten-teaser-first {
+  margin: 0;
+  position: static;
+}
+.artikel-grid-wrapper .grid {
+  width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+}
+.artikel-grid-wrapper .grid .grid-item,
+.grid-top3 .top-grid-item,
+.startseiten-teaser .teaser,
+.grid-serie .grid-item {
+  position: static !important;
+  width: 100% !important;
+  font-size: 14px !important;
+  margin: 0 !important;
+}
+[class*="col-"] {
+  float: none !important;
+  display: table-cell !important;
+  vertical-align: top !important;
+  margin: 0 !important;
+}
+img {
+  max-width: 400px !important;
+  height: auto !important;
+}
+p,
+ul li,
+a {
+  line-height: 20px !important;
+}
+h1 {
+  font-size: 33px !important;
+}
+h2 {
+  font-size: 28px !important;
+  margin: 0 !important;
+}
+h3 {
+  margin: 0 !important;
+  font-size: 23px !important;
+}
+.content-artikelseite h3 {
+  font-size: 25px !important;
+}
+h4 {
+  font-size: 20px !important;
+  line-height: 20px !important;
+}
+div.informmain-content ul li {
+  padding-left: 20px !important;
+}
+div.informmain-content ul li::before {
+  top: 3px !important;
+  background: #000 !important;
+}
+div.informmain-content ul {
+  margin-bottom: 10px !important;
+  margin-top: 0px !important;
+}
+.image-preWrap img.loaded {
+  width: 50%;
+  position: absolute;
+  right: 0;
+}
+.experte-verteilerseite,
+div.informmain-content ol li {
+  margin-bottom: 0;
+}
+header {
+  padding: 0 0 25px 0;
+}
+.artikel-intro .intro-wrap .text-inner {
+  width: 100%;
+  margin-left: 0;
+}
+.col {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 50% !important;
+}
+.col-sm-9,
+.col-sm-7,
+.col-lg-6 {
+  width: 100%;
+  display: block;
+}
+.col-sm-3 {
+  display: block !important;
+  width: 100% !important;
+  float: right;
+}
+div.informmain-content.content-rezeptseite-top .content-footer-meta {
+  margin-top: 20px;
+}
+.content-footer-meta p a,
+p,
+li {
+  font-size: 14px !important;
+}
+.logo img {
+  display: block !important;
+  width: 25%;
+}
+div.informmain-content ul li {
+  list-style-type: square !important;
+}
+.verteilerseite-main .col-sm-4,
+.verteilerseite-main .col-sm-6 {
+  margin: 0 20px;
+  width: 33% !important;
+}
+.inform-teaser a.headline {
+  line-height: normal !important;
+}
+.col-sm-6,
+.col-sm-4 {
+  display: block !important;
+  width: 100% !important;
+}
+.content-verteilerseite-main,
+.seiten-einstieg {
+  padding: 0 !important;
+}
+.inform-teaser a.headline {
+  font-size: 20px !important;
+}
+.inform-teaser {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.artikel-grid-wrapper .default-grid .grid-item .inner strong.title {
+  font-size: 20px !important;
+}
+.grid-serie .grid-item .inner p.title {
+  font-size: 20px !important;
+  line-height: normal !important;
+}
+.serie-details .serie-top .teaser-intro p.sDesc {
+  font-size: 23px !important;
+  line-height: 24px !important;
+  text-overflow: unset !important;
+  overflow-wrap: normal !important;
+  background-color: red !important;
+}
+div.inf-margin-double,
+div.inf-margin,
+.artikel-grid-wrapper .default-grid .grid-item,
+.artikel-grid-wrapper .default-grid .grid-item.grid-item-auto,
+.serie-details .backdiv,
+.inform-teaser a.headline,
+.experte-verteilerseite p.title,
+.experte-verteilerseite,
+div.desc p {
+  margin: 0 !important;
+}
+.artikel-grid-wrapper .grid .grid-item.akteure .inner {
+  padding: 0px !important;
+}
+.sDesc {
+  background-color: red !important;
+  overflow: visible !important;
+  overflow-wrap: normal !important;
+  text-overflow: initial !important;
+}
+strong.title {
+  font-size: 20px !important;
+  line-height: auto !important;
+}
+.content-artikelseite header {
+  padding: 0px !important;
+}
+div.informmain-content ul li {
+  display: list-item !important;
+  margin-bottom: 0px !important;
+}
+div.informmain-content ul li:before {
+  content: "■" !important;
+  color: #42a391;
+  margin-top: -5px;
+}
+div.informmain-content ul {
+  list-style-type: square !important;
+}
+div.informmain-content .content-footer-meta {
+  padding-top: 0px !important;
+}
+.content-artikelseite.right-column .content-right .ce-gallery {
+  margin-bottom: 0px !important;
+}
+div.informmain-content .content-footer-meta p.title {
+  line-height: 40px !important;
+  margin-bottom: 0px !important;
+  font-size: 20px !important;
+}
+p {
+  margin-bottom: 10px !important;
+}
+li p {
+  margin-bottom: 0px !important;
+}
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.publikations-details h3 {
+  margin-top: -10px !important;
+}
+.experte-verteilerseite,
+div.inf-margin-double {
+  margin-bottom: 10px !important;
+}
+.experte-verteilerseite,
+.experte-verteilerseite div.desc p {
+  margin: 0px !important;
+}
+p.einleitung {
+  margin: 0px !important;
+}
+.einstieg-inner h1 {
+  margin-bottom: 0px !important;
+}
+.seiten-einstieg {
+  padding: 0px !important;
+}
+table {
+  margin-bottom: 10px !important;
+}
+.intro-wrap p.desc,
+.intro-wrap h1 {
+  margin: 0px !important;
+}
+.content-startseite {
+  margin-top: 30px !important;
+}
+.content-startseite p.title {
+  font-size: 20px !important;
+  margin: 0 !important;
+}
+.content-startseite p.text {
+  margin-bottom: 20px !important;
+}
+.content-footer-meta p {
+  margin-bottom: 0 !important;
+}
+.pagination {
+  display: none !important;
+}
+.event-single {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.event-single p {
+  margin-bottom: 0px !important;
+}
+.event-single p.title {
+  font-weight: 700 !important;
+}
+.event-single p a {
+  font-weight: normal !important;
+}
+.experte-verteilerseite div.image {
+  margin-bottom: 10px !important;
+}
+.facet,
+.solr-pagination,
+.tx-solr-faceting,
+.tx-solr-search-form,
+.content-verteilerseite .metatitle {
+  display: none !important;
+}
+.wissen .inner p {
+  margin-top: -15px !important;
+}
+.materialien {
+  margin: 0 0 0px 0!important;
+}
+.entdecken-intro .kachel-wrap .serie-outer {
+  display: block !important;
+}
+.entdecken-intro .col-md-6,
+.entdecken-intro .col-sm-6 {
+  display: block !important;
+  width: 100% !important;
+  clear: both !important;
+}
+.entdecken-intro .col-md-6 .teaser-intro,
+.entdecken-intro .col-sm-6 .teaser-intro {
+  margin: 0 !important;
+}
+.entdecken-intro .col-md-6 .col-md-12,
+.entdecken-intro .col-sm-6 .col-md-12 {
+  width: 100% !important;
+  margin: 0px !important;
+}
+.entdecken-intro a.kachel {
+  min-height: 1px !important;
+}
+.entdecken-intro .serie-top a {
+  display: none !important;
+}
+.entdecken-intro .serie-outer .serie-top .teaser-intro:last-child {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.entdecken-intro .serie-outer .serie-top .teaser-intro p.sTitle {
+  font-size: 1.5rem !important;
+  font-family: "BundesSans", Helvetica, Arial, sans-serif !important;
+}
+.entdecken-intro .kachel {
+  margin-bottom: 30px !important;
+}
+.entdecken-intro .kachel div {
+  font-size: 1.5rem !important;
+  margin-bottom: 70px !important;
+  font-family: "BundesSans", Helvetica, Arial, sans-serif !important;
+}
